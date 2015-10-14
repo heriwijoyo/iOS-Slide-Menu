@@ -448,7 +448,7 @@ static SlideNavigationController *singletonInstance;
 		UIImage *image = [UIImage imageNamed:MENU_IMAGE];
         	UIBarButtonItem * barButtonItem = [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStylePlain target:self action:selector];
         	barButtonItem.tintColor = [UIColor whiteColor];
-        	return barButtonItem
+        	return barButtonItem;
 	}
 }
 
